@@ -1,9 +1,6 @@
 import express from "express"; // use to build a web server easily
 import fetch from "node-fetch"; // use to get data from another api
 import cors from "cors"; //helps other websites interact with the api
-import dotenv from "dotenv"; // use load files from .env file
-
-dotenv.config(); //this allows to read the .env file
 
 const app = express();//to create the express app
 app.use(cors()); 
